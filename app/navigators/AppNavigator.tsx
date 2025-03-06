@@ -35,7 +35,7 @@ export type AppStackParamList = {
  */
 
 export type AppStackScreenProps<T extends keyof AppStackParamList> = NativeStackScreenProps<
-  AppStackParamList,
+  AppStackParamList, 
   T
 >
 
